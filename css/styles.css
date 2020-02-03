@@ -147,4 +147,15 @@ nav a {
   font-size: 1rem;
 }
 
+.services {
+  background-image: url(https://d9me64que7cqs.cloudfront.net/images/common/background-generic-landscape-short-c67b55f50ca032607997398840751185782dd86436566617ed80dd553f62a890f554ca38ef1de26c6d60b4976ebea6145b9916091073d06823aa9853a093f3e7.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+h2.servicesTitle{
+  font-size: 1.5rem;
+  font-weight: 300;
+  padding: 2rem 1rem 1rem 1rem;
 }
