@@ -304,6 +304,7 @@ footer {
   background-repeat: no-repeat;
   color: white;
   text-align: center;
+  padding-bottom: 3rem;
 }
 
 .fa-globe-americas {
@@ -328,6 +329,14 @@ footer {
   padding-bottom: .5rem;
 }
 
+.footerMenuBottom {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: .75rem;
+  margin: 0;
+  padding-top: .5rem;
+  padding-bottom: 2rem;
+}
+
 .copyright {
   color: rgba(255, 255, 255, 0.3);
   font-size: .6rem;
@@ -336,6 +345,13 @@ footer {
 
 .trademarks {
   color: rgba(255, 255, 255, 0.7);
+}
+
+.esrbCertified{
+  padding-right: .25rem;
+}
+.esrbRating {
+  padding-left: .25rem;
 }
 
 }
