@@ -16,6 +16,10 @@ html, body {
   cursor: pointer;
 }
 
+h2 {
+  margin-top: 0;
+}
+
 header {
   background-color: #151a23;
   display: flex;
@@ -28,7 +32,7 @@ header {
   align-self: center;
 }
 
-.far {
+.fa-user {
   color: #00aeff;
   font-size: 1.3rem;
   padding-right: 15px;
@@ -140,7 +144,7 @@ nav a {
 .heroButton {
   margin-top: 1rem;
   background-color: #0e86ca;
-  border-color: #0e86ca;
+  border-color: #00aeff;
   border-width: 1px;
   color: white;
   padding: 1rem 9rem;
@@ -158,4 +162,180 @@ h2.servicesTitle{
   font-size: 1.5rem;
   font-weight: 300;
   padding: 2rem 1rem 1rem 1rem;
+}
+
+.fa-chevron-right {
+  color: #00aeff;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.servicesSubtitle {
+  color: rgba(255, 255, 255, 0.5);
+  padding-left: 1rem;
+}
+
+.servicesImages {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 1rem;
+}
+
+.servicesImg {
+  width: 48%;
+  padding-bottom: 2rem;
+}
+
+.servicesImgLg {
+  display: none;
+}
+
+.appInfo {
+  background-color: #002650;
+  color: white;
+}
+
+.appDesktop{
+  border: solid 1px rgba(255, 255, 255, 0.15);
+  font-size: 1rem;
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.appMobile {
+  border: solid 1px rgba(255, 255, 255, 0.15);
+  font-size: 1rem;
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.fa-desktop {
+  color: #00aeff;
+}
+
+.fa-mobile-alt {
+  color: #00aeff;
+}
+
+.blueText {
+  color: #00aeff;
+  margin-top: 0;
+}
+
+.stories {
+  background-image: url(https://d9me64que7cqs.cloudfront.net/images/root/top-stories-events_section-background_xs-ce2b7659e4a9224c1aa5b0ae20d145b6e918b1f343f773f20f6be23e864de05899360d0661bffaf605f44faa5890877770e9a7d274a8ef89d937ffd313fcf455.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.stories h2 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  padding: 2rem 1rem .25rem 1rem;
+  margin-bottom: 0;
+}
+
+.cards {
+  padding-left: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 47%;
+  background-color: rgba(0,174,255,.1);
+  border: rgba(255, 255, 255, 0.267) 1px solid;
+  font-size: 14px;
+  margin-bottom: 2rem;
+}
+
+.cardImg {
+  width: 100%;
+}
+
+.cardText {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.cardTitle {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.careers {
+  background-color: #220e05;
+  text-align: center;
+  color: white;
+}
+
+.careers h3 {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.careers p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.careersImg {
+  width: 100%;
+}
+
+.careers button {
+  margin-top: 1rem;
+  background-color: #0e86ca;
+  border-color: #00aeff;
+  border-width: 1px;
+  color: white;
+  padding: .6rem 3rem;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+footer {
+  background-image: url(https://d9me64que7cqs.cloudfront.net/images/root/top-stories-events_section-background_xs-ce2b7659e4a9224c1aa5b0ae20d145b6e918b1f343f773f20f6be23e864de05899360d0661bffaf605f44faa5890877770e9a7d274a8ef89d937ffd313fcf455.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+}
+
+.fa-globe-americas {
+  color: #00aeff;
+}
+
+.language {
+  color: rgba(255, 255, 255, 0.7);
+  padding: 4rem 0 2.5rem 0;
+  margin: 0;
+}
+
+.footerImg {
+  width: 200px;
+  padding-bottom: 2.5rem;
+}
+
+.footerMenu {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: .75rem;
+  margin: 0;
+  padding-bottom: .5rem;
+}
+
+.copyright {
+  color: rgba(255, 255, 255, 0.3);
+  font-size: .6rem;
+  margin: 0;
+}
+
+.trademarks {
+  color: rgba(255, 255, 255, 0.7);
+}
+
 }
