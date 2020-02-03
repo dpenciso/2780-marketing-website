@@ -1,0 +1,121 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 50;
+}
+
+
+@media only screen and (max-width: 500px) {
+.open {
+  font-size: 30px;
+  float: left;
+  margin: 1rem 0 0 1rem;
+  display: block;
+  cursor: pointer;
+}
+
+header {
+  background-color: #151a23;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerImg {
+  width: 150px;
+  padding: 13px 0;
+  align-self: center;
+}
+
+.far {
+  color: #00aeff;
+  font-size: 1.3rem;
+  padding-right: 15px;
+  align-self: center;
+}
+
+nav {
+  width: 0;
+  overflow-x: hidden;
+  height: 100vh;
+  z-index: 1;
+  position: fixed;
+  background-color: #151a23;
+  transition: 0.15s;
+  display: block;
+}
+
+.topNav {
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.smallLogo {
+  width: 200px;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.firstNav {
+  list-style-type: none;
+  margin-right: 0;
+  padding: 0;
+}
+
+.firstNav li {
+  padding: 1px 20px;
+  border-top: .5px solid;
+  border-top-color: rgba(255, 255, 255, 0.08);
+  border-bottom: 1px black solid;
+  border-bottom-color: rgba(255, 255, 255, 0.08);
+}
+
+.firstNav li a {
+  color:rgba(255, 255, 255, 0.7);
+}
+
+.secondNav {
+  list-style-type: none;
+  margin-right: 0;
+  padding: 0;
+  padding-top: 8px;
+}
+
+.secondNav li {
+  padding: 2px 20px;
+}
+
+.secondNav li a {
+  color:rgba(255, 255, 255, 0.3);
+}
+
+nav a {
+  clear: left;
+  font-size: 16px;
+  display: block;
+  text-decoration: none;
+  padding: .7rem 0;
+  transition: 0.3s;
+}
+
+.close {
+  float: left;
+  font-size: 40px;
+  font-weight: 50;
+  padding-left: 20px;
+  padding-top: 0;
+  color: #00aeff;
+}
+
+.open {
+  float: left;
+  font-size: 24px;
+  font-weight: 50;
+  margin: 0;
+  padding-left: 15px;
+  padding-top: 8px;
+  color: #00aeff;
+}
+}
+}
