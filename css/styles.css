@@ -138,15 +138,12 @@ nav a {
 }
 
 .heroButton {
-  position: absolute;
-  bottom: 8px;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin: 1rem;
   background-color: #0e86ca;
   border-color: #0e86ca;
   border-width: 1px;
   color: white;
-  padding: 1rem 7rem;
+  padding: 1rem 9rem;
   font-size: 1rem;
 }
 
