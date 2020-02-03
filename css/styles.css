@@ -117,4 +117,37 @@ nav a {
   padding-top: 8px;
   color: #00aeff;
 }
+
+.hero {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.heroImg {
+  width: 100%;
+}
+
+.heroText {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.heroButton {
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #0e86ca;
+  border-color: #0e86ca;
+  border-width: 1px;
+  color: white;
+  padding: 15px 100px;
+  font-size: 1rem;
+}
+
 }
