@@ -178,11 +178,11 @@ h2.servicesTitle{
 .servicesImages {
   display: flex;
   justify-content: space-between;
-  margin: 0 1rem;
+  padding: 0 1rem;
 }
 
 .servicesImg {
-  width: 8rem;
+  width: 10rem;
   padding-bottom: 2rem;
 }
 
