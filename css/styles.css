@@ -79,25 +79,35 @@ nav {
   margin: 0;
 }
 
+.hero {
+  position: relative;
+  text-align: left;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
 .heroImg {
   display: none;
 }
 
 .heroImgDesk {
   width: 100%;
-  height: 100%;
   margin: 0;
   padding: 0;
 }
 
 .heroText {
   position: absolute;
-  top: 45%;
-  left: 40%;
-  transform: translate(-50%, -50%);
+  bottom: 80px;
+  left: 160px;
+}
+
+.heroText p {
   font-size: 1.5rem;
   font-weight: 600;
   color: white;
+  text-shadow: black 1px 1px 5px;
 }
 
 .heroButton {
@@ -108,6 +118,13 @@ nav {
   color: white;
   padding: 1rem 9rem;
   font-size: 1rem;
+}
+
+.services {
+  background-image: url(https://d9me64que7cqs.cloudfront.net/images/common/background-generic-landscape-short-c67b55f50ca032607997398840751185782dd86436566617ed80dd553f62a890f554ca38ef1de26c6d60b4976ebea6145b9916091073d06823aa9853a093f3e7.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  color: white;
 }
 
 }
@@ -251,6 +268,10 @@ nav a {
   top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.heroText p {
+  text-shadow: black 1px 1px 5px;
   font-size: 1.5rem;
   font-weight: 600;
 }
