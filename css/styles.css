@@ -6,6 +6,82 @@ html, body {
   font-weight: 50;
 }
 
+@media only screen and (min-width: 501px) {
+
+.mobile {
+  display: none;
+}
+
+.open {
+  display: none;
+}
+
+.close {
+  display: none;
+}
+
+header {
+  display: flex;
+  background-color: rgb(143, 142, 142);
+  align-content: center;
+  padding: 1rem;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.fa-user {
+  display: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.firstNav {
+  display: flex;
+}
+
+.firstNav li {
+  list-style-type: none;
+}
+
+.firstNav a {
+  text-decoration: none;
+  color: white;
+}
+
+.secondNav {
+  display: flex;
+  justify-content: space-between
+}
+
+.secondNav li {
+  list-style-type: none;
+}
+
+.secondNav a {
+  text-decoration: none;
+  color: white;
+}
+
+.smallLogo {
+  width: 200px;
+  padding: 1rem;
+}
+
+.heroImg {
+  display: none;
+}
+
+.heroImgDesk {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+}
+
 
 @media only screen and (max-width: 500px) {
 .open {
@@ -133,6 +209,11 @@ nav a {
 
 .heroImg {
   width: 100%;
+  height: 100%;
+}
+
+.heroImgDesk {
+  display: none;
 }
 
 .heroText {
