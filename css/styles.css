@@ -125,6 +125,18 @@ nav {
   background-position: top;
   background-repeat: no-repeat;
   color: white;
+  padding-top: 3rem;
+  padding-left: 6rem;
+}
+
+.servicesImages {
+  display: flex;
+  justify-content: space-between;
+}
+
+.servicesImages img {
+  width: 165px;
+  padding-right: 1rem;
 }
 
 }
