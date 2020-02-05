@@ -24,12 +24,11 @@ header {
   display: flex;
   background-color: rgb(143, 142, 142);
   align-content: center;
-  padding: 1rem;
   width: 100%;
   justify-content: space-between;
 }
 
-.fa-user {
+.fa-user:before {
   display: none;
 }
 
