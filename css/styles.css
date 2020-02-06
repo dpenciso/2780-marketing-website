@@ -127,7 +127,7 @@ nav {
   background-position: top;
   background-repeat: no-repeat;
   color: white;
-  padding: 3rem 0 3rem 6rem;
+  padding: 3rem 3rem 3rem 6rem;
   background-color: #002650;
 }
 
@@ -206,6 +206,100 @@ nav {
 .cardTitle {
   color: rgba(255, 255, 255, 0.5);
   padding-top: 1rem;
+}
+
+.careers {
+  position: relative;
+  text-align: left;
+  color: white;
+  padding: 0;
+  margin: 0;
+  background-color: #002650;
+}
+
+.careersImg {
+  width: 100%;
+}
+
+.careersDiv {
+  position: absolute;
+  bottom: 90px;
+  left: 70px;
+}
+
+.careersDiv h3 {
+  font-size: 2rem;
+}
+
+.careersDiv p {
+  font-size: 1.5rem;
+}
+
+.careers button {
+  margin-top: 1rem;
+  background-color: #0e86ca;
+  border-color: #00aeff;
+  border-width: 1px;
+  color: white;
+  padding: .6rem 3rem;
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+footer {
+  background-image: url(https://d9me64que7cqs.cloudfront.net/images/common/footer-bg-lg-1ef544513bc161835a4bb721dbde4e1b85ab57f05ddf45ececa5f68aee53273b941f2b3d3a87bf79ed16a39a84e27fe4e056f8f2396dad93d8d41f1ead4b0f63.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.fa-globe-americas {
+  color: #00aeff;
+}
+
+.language {
+  color: rgba(255, 255, 255, 0.7);
+  padding: 4rem 0 2.5rem 0;
+  margin: 0;
+}
+
+.footerImg {
+  width: 200px;
+  padding-bottom: 2.5rem;
+}
+
+.footerMenu {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: .75rem;
+  margin: 0;
+  padding-bottom: .5rem;
+}
+
+.footerMenuBottom {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: .75rem;
+  margin: 0;
+  padding-top: .5rem;
+  padding-bottom: 2rem;
+}
+
+.copyright {
+  color: rgba(255, 255, 255, 0.3);
+  font-size: .6rem;
+  margin: 0;
+}
+
+.trademarks {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.esrbCertified{
+  padding-right: .25rem;
+}
+.esrbRating {
+  padding-left: .25rem;
 }
 
 }
