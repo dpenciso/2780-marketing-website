@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Calm Mind Spa</title>
     <link rel="stylesheet" href="css/index.css" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
     <script src="https://kit.fontawesome.com/82e4275e9f.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -13,7 +14,7 @@
         <nav id="nav">
             <div class="topNav">
                 <a href="javascript:void(0)" class="close" onclick="closeNav()">&times;</a>
-                <img src="images/smallLogo426x70.png" alt="blue calm mind logo at top of nav" class="smallLogo">
+                <img src="images/smallLogo426x70.png" alt="blue calm mind logo at top of nav" class="smallLogo" id="logo">
             </div>
             <ul class="firstNav">
                 <li class="mobile"><a href="#">HOME</a></li>
@@ -32,7 +33,7 @@
             </ul>
         </nav>
         <span id="open" class="open" onclick="openNav()">&#9776</span>
-        <img src="images/smallLogo426x70.png" class="headerImg mobile" alt="blue calm mind logo at the top of the page">
+        <img src="images/smallLogo426x70.png" class="headerImg mobile" alt="blue calm mind logo at the top of the page" id="logo">
         <i class="far fa-user"></i>
     </header>
     <div class="hero">
@@ -74,21 +75,21 @@
     <div class="stories">
         <h2>Top Stories <i class="fas fa-chevron-right"></i></h2>
         <div class="cards">
-            <div class="card">
+            <div class="card" id="cardDiv">
                 <img src="images/topless-woman-in-pool-facing-trees-during-night-time-9422.jpg" class="cardImg" alt="topless woman in a pool facing trees">
                 <div class="cardText">
                     <p class="cardTitle">POOL</p>
                     <p>THE NORTH SIDE POOL IS NOW OPEN</p>
                 </div>
             </div>
-            <div class="card">
+            <div class="card" id="cardDiv1">
                 <img src="images/brown-chair-with-white-pillows-161737.jpg" class="cardImg" alt="new spa room with brown chairs and white pillows">
                 <div class="cardText">
                     <p class="cardTitle">SPA</p>
                     <p>THE NEW SPA ROOM IS NOW AVAILABLE FOR USE</p>
                 </div>
             </div>
-            <div class="card desktop">
+            <div class="card desktop" id="cardDiv2">
                 <img src="images/pink-manicure-939836.jpg" class="cardImg" alt="woman's hand with pink manicure">
                 <div class="cardText">
                     <p class="cardTitle">SPA</p>
